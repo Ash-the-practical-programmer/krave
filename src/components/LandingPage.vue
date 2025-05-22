@@ -1,6 +1,6 @@
 <template>
     <div
-        class="flex flex-col min-h-screen items-center justify-center bg-gradient-to-br from-base-200 via-base-100 to-base-200 p-4 text-center">
+        class="w-full flex flex-col min-h-screen items-center justify-center bg-gradient-to-br from-base-200 via-base-100 to-base-200 p-4 text-center">
         <main class="w-full max-w-4xl mx-auto">
             <!-- Hero Section -->
             <section class="py-16 sm:py-24">

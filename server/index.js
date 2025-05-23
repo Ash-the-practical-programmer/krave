@@ -7,7 +7,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 // Initialize GoogleGenerativeAI client
-const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
+const genAI = new GoogleGenerativeAI('AIzaSyCNkpGuRfzLaqRrrSa5Hu0wqxwDg53yzmQ');
 
 // Configure Multer for in-memory storage
 const upload = multer({ storage: multer.memoryStorage() });

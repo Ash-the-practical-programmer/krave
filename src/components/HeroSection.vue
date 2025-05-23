@@ -12,7 +12,7 @@
                 a snap!
             </p>
             <div id="chat" class="mt-10">
-                <FoodChat @submit-food="handleSubmit" :isLoading="isLoading" />
+                <FoodChat @submit-food="handleSubmit" :isLoading="isLoading" ref="chatRef" />
             </div>
         </div>
     </main>

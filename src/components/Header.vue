@@ -5,7 +5,7 @@
             <AppLogo :usePrimaryColor="true" />
             <nav class="flex items-center gap-4 sm:gap-6">
                 <a href="#chat"
-                    class="btn btn-ghost font-sans text-sm sm:text-base hover:bg-secondary/30 hover:text-base-content focus:ring-2 focus:ring-secondary focus:ring-offset-2 focus:ring-offset-primary-dark transition-all duration-200 animate-pulse"
+                    class="btn btn-ghost font-sans text-base hover:bg-secondary/30 hover:text-base-content focus:ring-2 focus:ring-secondary focus:ring-offset-2 focus:ring-offset-primary-dark transition-all duration-200 animate-pulse"
                     aria-label="Get Started">
                     Get Started
                 </a>

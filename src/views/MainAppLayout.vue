@@ -6,7 +6,7 @@
             <FoodInput @submit-food="handleFoodSubmission" :is-loading="isLoading" />
             <AnalysisResult :analysis="aiAnalysis" />
         </main>
-        <footer class="text-center mt-12 py-8 border-t border-base-300 text-sm text-base-content/70">
+        <footer class="text-center mt-12 py-8 border-t border-base-300 text-base sm:text-sm text-base-content/70">
             <p>© {{ new Date().getFullYear() }} Krave AI. Beyond the label.</p>
         </footer>
     </div>

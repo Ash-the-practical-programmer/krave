@@ -3,7 +3,7 @@
         class="flex-1 flex flex-col items-center justify-center py-12 sm:py-20 bg-gradient-to-b from-base-100 to-base-200 animate-fade-in">
         <div class="text-center max-w-4xl mx-auto px-4 sm:px-6">
             <h2
-                class="text-3xl sm:text-4xl md:text-5xl font-heading font-extrabold text-base-content mb-4 leading-tight tracking-tight">
+                class="text-2xl sm:text-3xl md:text-5xl font-heading font-extrabold text-base-content mb-4 leading-tight tracking-tight">
                 Discover Your Food with Krave AI
             </h2>
             <p

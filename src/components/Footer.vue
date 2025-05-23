@@ -4,8 +4,8 @@
             <div class="mb-6">
                 <AppLogo :center="true" :usePrimaryColor="false" />
             </div>
-            <p class="text-sm opacity-80">© 2025 Krave AI. All rights reserved.</p>
-            <div class="mt-4 flex justify-center gap-6 sm:gap-8 text-sm">
+            <p class="text-base sm:text-sm opacity-80">© 2025 Krave AI. All rights reserved.</p>
+            <div class="mt-4 flex justify-center gap-6 sm:gap-8 text-base sm:text-sm">
                 <a href="#" class="hover:text-secondary hover:underline transition-all duration-200"
                     aria-label="Privacy Policy">
                     Privacy Policy

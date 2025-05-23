@@ -11,12 +11,12 @@
                 </button>
             </div>
         </div>
-        <div v-if="errorMessage" class="text-xs text-error/80 mb-3 text-center" role="alert">
+        <div v-if="errorMessage" class="text-sm text-error/80 mb-3 text-center" role="alert">
             {{ errorMessage }}
         </div>
         <div class="flex items-center gap-2 sm:gap-3">
             <input type="text" v-model="message" placeholder="Describe the food..."
-                class="input input-bordered flex-1 text-sm sm:text-base bg-base-100 border-base-200 focus:ring-2 focus:ring-primary focus:border-primary-dark transition-all duration-200 rounded-lg shadow-softer"
+                class="input input-bordered flex-1 text-base bg-base-100 border-base-200 focus:ring-2 focus:ring-primary focus:border-primary-dark transition-all duration-200 rounded-lg shadow-softer"
                 aria-label="Food description input" @keyup.enter="sendMessage" />
             <label for="image-upload"
                 class="btn btn-outline btn-primary flex items-center gap-2 hover:bg-secondary/20 hover:shadow-soft focus:ring-2 focus:ring-secondary focus:ring-offset-2 transition-all duration-200 animate-pulse"

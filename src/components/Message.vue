@@ -6,7 +6,7 @@
             : 'mr-auto bg-base-200 text-base-content',
     ]"
         class="max-w-[85%] p-3 sm:p-4 rounded-xl shadow-softer transition-all duration-300 animate-slide-up font-sans">
-        <div v-if="text" class="text-sm sm:text-base leading-relaxed">{{ text }}</div>
+        <div v-if="text" class="text-base sm:text-lg leading-relaxed">{{ text }}</div>
         <div v-if="images && images.length" class="mt-3 flex flex-wrap gap-2">
             <img v-for="image in images" :key="image.name" :src="getImageUrl(image)" :alt="`Food image: ${image.name}`"
                 loading="lazy"

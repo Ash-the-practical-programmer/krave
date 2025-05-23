@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-screen bg-base-100 flex flex-col font-sans transition-colors duration-300">
-    <Header @toggle-theme="toggleTheme" :isDark="isDark" />
+    <Header />
     <HeroSection @submit-food="handleFoodSubmit" ref="heroRef" :isLoading="isLoading" />
     <Footer />
   </div>
